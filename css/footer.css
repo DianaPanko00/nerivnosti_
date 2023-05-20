@@ -1,0 +1,36 @@
+.content_1{
+  display: flex;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.content_1 a {
+  color: #d6d1d1;
+  padding: 18px;
+  text-decoration: none;
+  font-size: 18px; 
+  border-radius: 4px;
+}
+
+@media (max-width: 580px){
+  .content_1 a{
+    padding: 14px;
+    font-size: 16px;
+    margin-left: 2px;
+  }
+}
+
+@media (max-width: 350px){
+  .content_1 a{
+    padding: 11px;
+    font-size: 16px;
+  }
+}
+.content_1 a:hover {
+  background-color: #434343;
+  color: #d9d9d9;
+}
+
+.active_1{
+  margin-left: 20px;
+}
